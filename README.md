@@ -5,7 +5,10 @@ This repository contains a pnpm workspace with a Nuxt 4 frontend.
 ## Structure
 
  - `apps/frontend` – Nuxt 4 application (root component in `app/app.vue`)
-- `packages/basic-layer` – reusable Nuxt layer providing shared configuration
+ - `packages/basic-layer` – reusable Nuxt layer providing shared configuration
+ - `packages/note-core` – domain model and business logic for notes
+ - `packages/note-api` – REST API layer persisting notes to PostgreSQL
+ - `packages/note-ui` – UI components and pages for managing notes
 
 ## Setup
 
@@ -19,6 +22,12 @@ Run the development server:
 
 ```bash
 pnpm --filter nuxt-app dev
+```
+
+Run tests across the workspace:
+
+```bash
+pnpm test
 ```
 
 ### Static assets

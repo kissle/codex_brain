@@ -4,5 +4,7 @@
   "version": "1.0.0",
   "packageManager": "pnpm@9.15.4",
   "workspaces": ["apps/*", "packages/*"],
-  "scripts": {}
+  "scripts": {
+    "test": "pnpm -r test"
+  }
 }
