@@ -1,0 +1,19 @@
+{
+  "name": "@codex/note-api",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "pg": "^8.11.3",
+    "@codex/note-core": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^1.4.0",
+    "@nuxt/test-utils": "^3.7.0"
+  },
+  "scripts": {
+    "test": "vitest run --passWithNoTests"
+  }
+}
