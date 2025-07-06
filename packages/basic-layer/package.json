@@ -2,6 +2,6 @@
   "name": "@codex/basic-layer",
   "version": "0.1.0",
   "dependencies": {
-    "nuxt": "^3.10.0"
+    "nuxt": "4.0.0-alpha.4"
   }
 }

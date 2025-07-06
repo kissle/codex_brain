@@ -1,10 +1,10 @@
 # Codex Brain Monorepo
 
-This repository contains a pnpm workspace with a Nuxt frontend.
+This repository contains a pnpm workspace with a Nuxt 4 frontend.
 
 ## Structure
 
-- `apps/frontend` – Nuxt 3 application
+ - `apps/frontend` – Nuxt 4 application (root component in `app/app.vue`)
 - `packages/basic-layer` – reusable Nuxt layer providing shared configuration
 
 ## Setup
