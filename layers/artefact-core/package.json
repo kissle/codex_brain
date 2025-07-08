@@ -1,0 +1,17 @@
+{
+  "name": "@codex/artefact-core",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "vitest": "^1.4.0"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}
