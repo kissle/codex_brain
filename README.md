@@ -9,6 +9,9 @@ This repository contains a pnpm workspace with a Nuxt 4 frontend.
  - `packages/note-core` – domain model and business logic for notes
 - `packages/note-api` – REST API layer persisting notes to PostgreSQL
 - `packages/note-ui` – UI components and pages for managing notes
+- `packages/artefact-core` – domain model and business logic for artefacts
+- `packages/artefact-api` – API layer for storing artefacts (mocked)
+- `packages/artefact-ui` – UI components for artefacts (mocked)
 - `docs/artefact-stories.md` – user stories and diagrams for referencing artefacts in notes
 
 ## Setup

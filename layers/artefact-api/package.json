@@ -1,0 +1,17 @@
+{
+  "name": "@codex/artefact-api",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@codex/artefact-core": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^1.4.0"
+  },
+  "scripts": {
+    "test": "vitest run --passWithNoTests"
+  }
+}
